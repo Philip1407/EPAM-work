@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    padding: 0 2vw;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+li{
+    margin: 1vw;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user *{
+    margin: 1vw;
+}
+
+.icon{
+    color: white;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+}

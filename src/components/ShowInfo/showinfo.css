@@ -1,0 +1,18 @@
+.ShowInformation{
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    background-color: rgba(240,248,255,0.7);
+}
+
+.ShowInformation .info{
+    margin-left: 2vw;
+}
+
+.ShowInformation img{
+    max-width: fit-content;
+}
+
+.ShowInformation h2{
+    margin-top: 0;
+}

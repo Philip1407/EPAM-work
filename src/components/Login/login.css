@@ -1,0 +1,33 @@
+.Login form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 5vw;
+    height: fit-content;
+}
+
+.Login .border{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: fit-content;
+    border: 1px solid blue;
+    background-color: aliceblue;
+}
+
+.Login input, button{
+    width: 90%;
+    margin: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.Login input::placeholder{
+    font-style: italic;
+    margin-left: 5px;
+}
+.Login input:focus{
+    outline: none;
+}
+

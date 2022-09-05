@@ -1,0 +1,51 @@
+.MainPage .filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.MainPage .filter *{
+    margin-top: 1em;
+    margin-right: 2vw;
+}
+
+.MainPage .filter p{
+    color: white; 
+    font-weight: 500;
+}
+
+.MainPage .list{
+    display: flex;
+    justify-content: center;
+}
+
+.MainPage ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+
+.MainPage li {
+    background-color: white;
+}
+
+.MainPage p{
+    margin: 10px 20px;
+}
+
+.MainPage .selected{
+    color: crimson;
+    border: none;
+}
+
+.MainPage .heart{
+    color: grey;
+    margin: 10px 20px;
+}
+
+.MainPage .favorite{
+    color: red;
+    margin: 10px 20px;
+}
+
+

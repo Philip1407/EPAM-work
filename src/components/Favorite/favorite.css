@@ -1,0 +1,56 @@
+.Favorite h2{
+    text-align: center;
+    color: white;
+}
+
+.Favorite .filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.Favorite .filter *{
+    margin-top: 1em;
+    margin-right: 2vw;  
+}
+
+.Favorite .filter p{
+    color: white; 
+}
+
+.Favorite .list{
+    display: flex;
+    justify-content: center;
+}
+
+.Favorite ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+
+.Favorite li {
+    background-color: white;
+}
+
+.Favorite p{
+    margin: 10px 20px;
+}
+
+.Favorite .selected{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.Favorite .heart{
+    color: grey;
+    margin: 10px 20px;
+}
+
+.Favorite .favorite{
+    color: red;
+    margin: 10px 20px;
+}
+
+

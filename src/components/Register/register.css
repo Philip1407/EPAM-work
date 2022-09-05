@@ -1,0 +1,33 @@
+.Register form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 5vw;
+    height: fit-content;
+}
+
+.Register .border{
+    padding: 20px;
+    min-width: fit-content;
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.Register input{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 20px 0;
+}
+
+.Register input::placeholder{
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.Register input:focus{
+    outline: none;
+}
